@@ -1,0 +1,17 @@
+*.r
+*.Rproj
+*.key
+.vscode
+
+# General crud
+.DS_Store
+
+# Python crud
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Spark crud
+derby.log
+metastore_db
