@@ -7,7 +7,7 @@ To make things easier and avoid installation woes, I created a Docker container 
 
 1. Install Docker. On Mac OS X, you can download [Docker for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) for an easy-to-install desktop app. 
 
-2. Download the .zip file linked here: 
+2. Download the .zip file linked here: [https://github.com/stefano-meschiari/spark_workshop/archive/master.zip]
 
 3. Run `run.sh` to start the Docker container.
 
