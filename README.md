@@ -9,6 +9,6 @@ To make things easier and avoid installation woes, I created a Docker container 
 
 2. Download the .zip file linked here: https://github.com/stefano-meschiari/spark_workshop/archive/master.zip
 
-3. Run `run.sh` to start the Docker container.
+3. Run `sh run.sh` from a terminal to start the Docker container.
 
 4. You should be able to navigate to `localhost:8888` with your browser and see a Jupyter notebook instance. The password is `spark`.
