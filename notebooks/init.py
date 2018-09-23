@@ -55,3 +55,19 @@ def plot(self, x=None, y=None, kind="scatter", hue=None, n=100000, logx=False, l
 
 # Horrible, horrible monkey patching
 pyspark.sql.dataframe.DataFrame.plot = plot
+
+# Use "col" as a shortcut for F.column
+F.col = F.column
+
+# Use "percentile_approx" as a shortcut for expr('percentile_approx()')
+def percentile_approx(column, perc):
+    return F.expr("percentile_approx({}, {})".format(column, perc))
+
+F.percentile_approx = percentile_approx
+
+# Set up some plotting parameters
+import matplotlib.pyplot as plt
+
+sns.set_context("notebook", font_scale=2)
+plt.figure()
+plt.rcParams['figure.figsize'] = [12, 8]
