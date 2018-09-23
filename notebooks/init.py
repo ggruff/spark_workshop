@@ -30,6 +30,7 @@ def log_formatter(x, pos):
 
 def plot(self, x=None, y=None, kind="scatter", hue=None, n=100000, logx=False, logy=False, norm_hist=False):
     df = convert_to_pandas(self.cache(), n)
+    plt.rcParams['figure.figsize'] = [12, 8]
 
     if kind == "scatter":
         grid = sns.scatterplot(x=x, y=y, hue=hue, data=df)
@@ -39,7 +40,7 @@ def plot(self, x=None, y=None, kind="scatter", hue=None, n=100000, logx=False, l
         series = df[x]
         if logx:
             series = np.log10(series[series > 0.0])
-        
+
         grid = sns.distplot(series, kde=False,  norm_hist=norm_hist)
         if logx:
             grid.xaxis.set_major_formatter(log_formatter)
@@ -70,4 +71,3 @@ import matplotlib.pyplot as plt
 
 sns.set_context("notebook", font_scale=2)
 plt.figure()
-plt.rcParams['figure.figsize'] = [12, 8]

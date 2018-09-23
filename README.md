@@ -19,14 +19,17 @@ Please follow the instructions below to start up the container:
 $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 ```
 
-5. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. If this step fails with error `unauthorized: incorrect username or password.`, run 
+5. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. 
+
+6. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. The password is `spark`.
+
+7. You can exit the Docker session using `Ctrl+C`.
+
+## Troubleshooting
+If step 5 fails with error `unauthorized: incorrect username or password.`, run 
 
 ```
 $ docker login
 ```
 
 and enter your DockerHub credentials (username and password; username is _not_ your email).
-
-6. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. The password is `spark`.
-
-7. You can exit the Docker session using `Ctrl+C`.
