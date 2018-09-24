@@ -16,7 +16,7 @@ Please follow the instructions below to start up the container:
 4. Click on the Docker app icon and select "Preferences...". Under "Advanced", increase the memory available to containers to 8.0 GB.
 
 ![prefs](img/prefs.png)
-
+![mem](img/memory.png)
 
 5. Clone this repository using `git clone`:
 
