@@ -13,10 +13,10 @@ Please follow the instructions below to start up the container:
 
 3. Open Docker and enter your Docker Hub credentials.
 
-4. Click on the Docker app icon and select "Preferences...". Under "Advanced", increase the memory available to containers to 4.0 GB.
+4. Click on the Docker app icon and select "Preferences...". Under "Advanced", increase the memory available to containers to 8.0 GB.
 
 ![prefs](img/prefs.png)
-![memory](img/memory.png)
+
 
 5. Clone this repository using `git clone`:
 
@@ -26,7 +26,7 @@ $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 
 6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. 
 
-7. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. The password is `spark`.
+7. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. **The password is `spark`.**
 
 8. You can exit the Docker session using `Ctrl+C`.
 
