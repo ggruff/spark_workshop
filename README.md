@@ -24,7 +24,11 @@ Please follow the instructions below to start up the container:
 $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 ```
 
-6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. 
+6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. This script will:
+ 
+  * Download a JSON dataset from https://s3-us-west-2.amazonaws.com/public-spark-workshop/reviews.json.gz
+  * Build a Docker image
+  * Set up and start the Docker container
 
 7. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. **The password is `spark`.**
 
