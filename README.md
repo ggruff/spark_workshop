@@ -28,7 +28,7 @@ $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 ```
 $ sh run.sh
 ``` 
-from a terminal to download a JSON dataset and start the Docker container. T
+from a terminal to download a JSON dataset and start the Docker container. 
 
 7. You should be able to navigate to **`http://0.0.0.0:8889`** with your browser and see a Jupyter notebook instance. **The password is `spark`.**
 
