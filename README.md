@@ -3,7 +3,7 @@
 This workshop will teach you some basic Spark operations that can be used to do simple outlier detection. The example dataset we will use is the Amazon Electronics review (http://jmcauley.ucsd.edu/data/amazon/).
 
 ## Installation instructions (~15 minutes)
-To make things easier and avoid installation woes, I created a Docker container that will have all we need for this workshop pre-installed and separate from your system. 
+To make things smoother and avoid installation woes, I created a Docker container that will have all we need for this workshop pre-installed and separate from your system. 
 
 Please follow the instructions below to start up the container:
 
