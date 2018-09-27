@@ -26,7 +26,7 @@ $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 
 6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. This script will automatically:
  
-  * Download a JSON dataset from https://s3-us-west-2.amazonaws.com/public-spark-workshop/reviews.json.gz
+  * Download a JSON dataset from https://s3-us-west-2.amazonaws.com/public-spark-workshop/reviews.json.gz (the script will do that for you #nomalware)
   * Build a Docker image
   * Set up and start the Docker container
 
