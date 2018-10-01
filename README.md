@@ -3,7 +3,7 @@
 This workshop will teach you some basic Spark operations that can be used to do simple outlier detection. The example dataset we will use is the Amazon Electronics review (http://jmcauley.ucsd.edu/data/amazon/).
 
 ## Installation instructions (~15 minutes)
-To make things easier and avoid installation woes, I created a Docker container that will have all we need for this workshop pre-installed and separate from your system. 
+To make things smoother and avoid installation woes, I created a Docker container that will have all we need for this workshop pre-installed and separate from your system. 
 
 Please follow the instructions below to start up the container:
 
@@ -24,9 +24,14 @@ Please follow the instructions below to start up the container:
 $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 ```
 
-6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. 
+6. Open a terminal, navigate to the `spark_workshop` directory, and run: 
+```
+$ sh run.sh
+``` 
+from a terminal to download a JSON dataset and start the Docker container. 
 
-7. You should be able to navigate to `0.0.0.0:8889` with your browser and see a Jupyter notebook instance. **The password is `spark`.**
+
+7. You should be able to navigate to **`http://0.0.0.0:8889`** with your browser and see a Jupyter notebook instance. **The password is `spark`.**
 
 8. You can exit the Docker session using `Ctrl+C`.
 
