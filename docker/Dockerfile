@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM continuumio/anaconda3:5.2.0
 RUN conda install -y pyspark seaborn==0.9.0
 RUN pip install rise
 RUN jupyter-nbextension install rise --py --sys-prefix

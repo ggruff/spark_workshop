@@ -26,7 +26,7 @@ $ git clone https://github.com/stefano-meschiari/spark_workshop.git
 
 6. Open a terminal, navigate to the `spark_workshop` directory, and run `sh run.sh` from a terminal to start the Docker container. 
 
-7. You should be able to navigate to `localhost:8889` with your browser and see a Jupyter notebook instance. **The password is `spark`.**
+7. You should be able to navigate to `0.0.0.0:8889` with your browser and see a Jupyter notebook instance. **The password is `spark`.**
 
 8. You can exit the Docker session using `Ctrl+C`.
 
