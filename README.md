@@ -6,7 +6,13 @@ In this workshop you will learn how to:
 * write simple Apache Spark queries to filter and transform a dataset
 * do very simple outlier detection
 
-The example dataset we will use is the Amazon Electronics review (http://jmcauley.ucsd.edu/data/amazon/).
+The example dataset we will use is the Amazon Electronics reviews dataset:
+
+```
+Ups and downs: Modeling the visual evolution of fashion trends with one-class collaborative filtering
+R. He, J. McAuley
+WWW, 2016 [http://jmcauley.ucsd.edu/data/amazon/]
+```
 
 ## Installation instructions (~15 minutes)
 To make things smoother and avoid installation woes, I created a Docker container that will have all we need for this workshop pre-installed and separate from your system. 
@@ -49,3 +55,5 @@ $ docker login
 ```
 
 and enter your DockerHub credentials (username and password; username is _not_ your email).
+
+
