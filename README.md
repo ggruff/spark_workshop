@@ -1,4 +1,4 @@
-# Spark Workshop 
+# PySpark Outlier Detection Workshop 
 
 In this workshop you will learn how to:
 
